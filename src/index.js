@@ -1,4 +1,5 @@
 // https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator?tabs=nodejs
+// https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/cognitive-services/Translator/reference/v3-0-translate.md
 
 import dotenv from 'dotenv';
 import fetch from 'node-fetch';
