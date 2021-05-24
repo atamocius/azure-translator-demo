@@ -3,7 +3,7 @@
 import fetch from 'node-fetch';
 import { v4 as uuidv4 } from 'uuid';
 
-const subscriptionKey = 'YOUR-SUBSCRIPTION-KEY';
+const subscriptionKey = 'YOUR_SUBSCRIPTION_KEY';
 const endpoint = 'https://api.cognitive.microsofttranslator.com';
 
 // Add your location, also known as region. The default is global.
@@ -23,6 +23,12 @@ async function main() {
   const data = [
     {
       text: 'Hello World!',
+    },
+    {
+      text: 'Thank you, Amelia',
+    },
+    {
+      text: 'Thank you, {{NAME}}',
     },
   ];
 
